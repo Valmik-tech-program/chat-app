@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema(
         required: true,
         length: 6, 
     },
-    profilepic:{
+    profilePic:{
         type: String,
         default: ""
     },
@@ -26,6 +26,6 @@ const userSchema = new mongoose.Schema(
     
 );
 
-const USer = mongoose.model('User', userSchema);
+const User = mongoose.model('User', userSchema);
 
-export default USer;
+export default User;
